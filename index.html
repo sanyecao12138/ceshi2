@@ -665,6 +665,8 @@
                 var expression = expressions.join(" AND ");
                 featureLayer.definitionExpression = expression;
             }
+			
+			
 			view.ui.add(document.querySelector(".action-buttons"), "top-right");
             view.ui.add(legend, "bottom-left");
             view.ui.add(new Compass({view: view}), "top-left");
